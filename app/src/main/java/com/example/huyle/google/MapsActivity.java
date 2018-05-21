@@ -126,7 +126,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void run() {
 
                 try {
-                    socket = new Socket("192.168.1.106",9999 );
+                    socket = new Socket("35.232.197.34",9999);
                     inputStream = new ObjectInputStream(socket.getInputStream());
                     OutputStream = new PrintWriter(socket.getOutputStream());
 
